@@ -28,6 +28,3 @@ jobs:
 
       - run: |
           cog bump --auto
-
-      - name: Push tags
-        run: git push --tags
