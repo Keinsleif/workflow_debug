@@ -28,3 +28,7 @@ jobs:
 
       - run: |
           cog bump --auto
+
+      - run: |
+          git push
+          git push --tags
