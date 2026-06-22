@@ -19,6 +19,7 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - uses: cargo-bins/cargo-binstall@main
       - uses: jdx/mise-action@v4
 
       - run: |
