@@ -30,4 +30,4 @@ jobs:
           cog bump --auto
 
       - name: Push tags
-        run: git push --follow-tags
+        run: git push --tags
