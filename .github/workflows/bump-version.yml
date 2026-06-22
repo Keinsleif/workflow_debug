@@ -19,10 +19,7 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: cocogitto
-        uses: cocogitto/cocogitto-action@v4.2.0
-        with:
-          install-only: true
+      - uses: jdx/mise-action@v4
 
       - run: |
           git config --global user.email github-actions[bot]@users.noreply.github.com
