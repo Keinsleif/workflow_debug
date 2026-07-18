@@ -4075,7 +4075,7 @@ dependencies = [
 
 [[package]]
 name = "sbsp_app"
-version = "2.4.5"
+version = "2.4.6"
 dependencies = [
  "anyhow",
  "humantime",

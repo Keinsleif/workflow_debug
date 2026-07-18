@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.4.6](https://github.com/Keinsleif/sbsp/compare/bbf0ab9f81a0412fa29ac2fe081b201694472762..2.4.6) - 2026-07-18
+### Package updates
+- [app-2.4.6](sbsp_app) bumped to [app-2.4.6](https://github.com/Keinsleif/sbsp/compare/app-2.4.5..app-2.4.6)
+- [docs-1.0.2](sbsp_docs) bumped to [docs-1.0.2](https://github.com/Keinsleif/sbsp/compare/docs-1.0.1..docs-1.0.2)
+### Global changes
+#### Bug Fixes
+- ci scripts - ([bbf0ab9](https://github.com/Keinsleif/sbsp/commit/bbf0ab9f81a0412fa29ac2fe081b201694472762)) - [@Keinsleif](https://github.com/Keinsleif)
+
+- - -
+
 ## [2.4.5](https://github.com/Keinsleif/sbsp/compare/31000ea5cba437ba2155df09ab7763e7a67dc06c..2.4.5) - 2026-06-22
 ### Package updates
 - [frontend-2.4.5](sbsp_frontend) bumped to [frontend-2.4.5](https://github.com/Keinsleif/sbsp/compare/frontend-2.4.4..frontend-2.4.5)

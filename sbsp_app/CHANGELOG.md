@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## app-2.4.6 - 2026-07-18
+#### Bug Fixes
+- for test commit - (ac8b6a3) - *Keinsleif*
+
+- - -
+
 ## app-2.4.5 - 2026-06-22
 #### Bug Fixes
 - (**backend**) next cue resolution logic for flatten cue model (#110) - (73d7415) - 近藤 和人
