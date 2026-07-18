@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## backend-1.5.4 - 2026-07-18
+#### Bug Fixes
+- test - (14403e4) - *Keinsleif*
+
+- - -
+
 ## backend-1.5.3 - 2026-06-22
 #### Bug Fixes
 - (**backend**) next cue resolution logic for flatten cue model (#110) - (73d7415) - 近藤 和人
