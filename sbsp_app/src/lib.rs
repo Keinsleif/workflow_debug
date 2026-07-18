@@ -6,8 +6,6 @@ mod settings;
 
 use std::time::{Duration, SystemTime};
 
-// test changes
-
 use log::LevelFilter;
 use sbsp_backend::{
     BackendHandle,
