@@ -2,7 +2,7 @@ name: 'build-release'
 
 on:
   push:
-    tags: ['remote_app-*.*.*']
+    tags: ['app-*.*.*']
 
 # This workflow will trigger on each push to the `release` branch to create or update a GitHub release, build your app, and upload the artifacts to the release.
 concurrency:
@@ -69,17 +69,17 @@ jobs:
       - name: install frontend dependencies
         run: pnpm install --frozen-lockfile # change this to npm, pnpm or bun depending on which one you use.
 
-      # SBSP
+      # SBSP Remote
 
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_MAIN }}
-          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD_MAIN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_REMOTE }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD_REMOTE }}
         with:
-          tagName: app-__VERSION__
-          releaseName: 'SBS Player v__VERSION__'
-          projectPath: ./sbsp_app
+          tagName: remote_app-__VERSION__
+          releaseName: 'SBS Player Remote v__VERSION__'
+          projectPath: ./sbsp_remote_app
           releaseBody: 'See the assets to download this version and install.'
           releaseDraft: true
           prerelease: false
