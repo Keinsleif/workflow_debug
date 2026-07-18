@@ -6,6 +6,8 @@
 
 以下のページよりインストーラーのZIPファイルを入手できます。
 
+<!--for test-->
+
 ### BOOTH
 
 [BOOTH 商品ページ](https://keinsleif.booth.pm/items/7619260)
