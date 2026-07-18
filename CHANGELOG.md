@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.4.7](https://github.com/Keinsleif/sbsp/compare/2.4.6..2.4.7) - 1970-01-01
+### Package updates
+- [app-2.4.7](sbsp_app) bumped to [app-2.4.7](https://github.com/Keinsleif/sbsp/compare/app-2.4.6..app-2.4.7)
+### Global changes
+
+- - -
+
 ## [2.4.6](https://github.com/Keinsleif/sbsp/compare/bbf0ab9f81a0412fa29ac2fe081b201694472762..2.4.6) - 2026-07-18
 ### Package updates
 - [app-2.4.6](sbsp_app) bumped to [app-2.4.6](https://github.com/Keinsleif/sbsp/compare/app-2.4.5..app-2.4.6)
